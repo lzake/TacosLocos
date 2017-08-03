@@ -12,6 +12,6 @@ This is an application from www.ZachariahLowe.com# TACOapp-single-day-code
 
 
 
-![Alt text](1.png?raw=true "Splash Screen")
+![Splash](/1.png?raw=true "Splash Screen")
 
-![Alt text](2.png?raw=true "Main App")
+![Main](/2.png?raw=true "Main App")
