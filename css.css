@@ -21,13 +21,16 @@ body {
 #tacoscroll {
     height: 15%;
     width: 60%;
-    box-shadow: -10px 40px 45px black;
+    box-shadow: 0 16px 2px -1px #e8d63c;
 }
 
 #nearby {
     height: 55%;
     width: 30%;
-    border: 2px solid black;
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 25px;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Righteous);
@@ -41,23 +44,23 @@ body {
 h1 {
     ;
     color: white;
-    font-family: 'Righteous', serif;
-    font-size: 5em;
-    text-shadow: .05em .em 0 hsla(230, 40%, 50%, 1);
-    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: 'Lobster', serif;
+    font-size: 3em;
+    text-shadow: .1em .em 0 hsla(230, 40%, 50%, 1);
+    text-shadow: 7px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 h1:after {
     content: attr(data-shadow);
     position: absolute;
-    top: .06em;
-    left: .06em;
+    top: .8em;
+    left: 3em;
     z-index: -1;
-    text-shadow: none;
-    background-image: linear-gradient( 45deg, transparent 15%, hsla(48, 20%, 90%, 1) 45%, hsla(48, 20%, 90%, 1) 55%, transparent 0);
-    background-size: .09em .09em;
+    text-shadow: .1em .em 0 hsla(230, 40%, 50%, 1);
+    text-shadow: 7px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    background-image: linear-gradient( 45deg, transparent 15%, hsla(48, 20%, 90%, 1) 45%, hsla(48, 20%, 90%, 1) 95%, transparent 0);
+    background-size: .1em .2em;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     animation: shad-anim 15s linear infinite;
 }
 
@@ -77,6 +80,9 @@ h1:after {
     position: relative;
     overflow: hidden;
     transform: translate3d(0, 0, 0);
+    margin: 0 auto;
+    border-radius: 100px;
+    border-top: 5px solid #e8d63c;
 }
 
 .tech-slideshow>div {
@@ -88,11 +94,11 @@ h1:after {
     left: 0;
     height: 50%;
     transform: translated(0, 0, 0);
-    border: .5px solid black;
+    border: .5px solid #e8d63c;
 }
 
 .tech-slideshow .mover-1 {
-    animation: moveSlideshow 12s linear infinite;
+    animation: moveSlideshow 19s linear infinite;
 }
 
 @keyframes moveSlideshow {
